@@ -167,6 +167,7 @@ body {
 .header__image {
   position: relative;
   z-index: 2;
+  margin-top: 90px;
 }
 
 .header__image img {
