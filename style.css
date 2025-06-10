@@ -23,8 +23,8 @@ body {
 }
 
 .header marquee {
-  background: #2c3e50;
-  color: white;
+  background: orange;
+  color: blue;
   padding: 8px 0;
   font-weight: bold;
   font-size: 54px;
@@ -77,7 +77,7 @@ body {
 }
 
 .nav ul li a.D:hover {
-  background: #ff6b35;
+  background: orange;
   color: white;
   transform: translateY(-2px);
 }
@@ -160,7 +160,6 @@ body {
   left: 0;
   right: 0;
   bottom: 0;
-  background: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100"><defs><pattern id="grain" width="100" height="100" patternUnits="userSpaceOnUse"><circle cx="25" cy="25" r="1" fill="rgba(255,255,255,0.1)"/><circle cx="75" cy="75" r="1" fill="rgba(255,255,255,0.1)"/></pattern></defs><rect width="100" height="100" fill="url(%23grain)"/></svg>');
   opacity: 0.3;
 }
 
@@ -458,7 +457,7 @@ body {
   font-size: 16px;
 }
 
-/* Footer */
+/* ---------------------Footer -----------------------------------------*/
 .footer {
   background: #1a1a1a;
   color: white;
@@ -498,7 +497,8 @@ body {
   font-size: 14px;
 }
 
-/* Responsive Design */
+
+/*-------------------------------------------- Responsive Design------------------------------------------------------- */
 @media (max-width: 768px) {
   .nav {
     flex-direction: column;
@@ -627,7 +627,7 @@ html {
     background-position: -200% 0;
   }
 }
-/*----------------------------------------------------------------------------------*/
+/*------------------------------------menupage----------------------------------------------*/
 * Main Content */
 main {
   padding-top: 140px;
